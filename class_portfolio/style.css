@@ -301,11 +301,11 @@ span {
     text-align: center;
     margin: 5rem 0;
 }
-.education {
+.projects {
     padding: 100px 15px;
     background: var(--second-bg-color);
 }
-.education h2 {
+.projects h2 {
     margin-bottom: 5rem;
 }
 .timeline-items {
@@ -651,10 +651,12 @@ span {
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
-        display: none;
+        display: none; /* Hidden by default */
+        z-index: 10;
     }
-    .navbar .active {
+    .navbar.active {
         display: flex;
+        flex-direction: column;
     }
     .navbar a {
         display: block;
@@ -704,5 +706,8 @@ span {
 
     .service-info{
         margin-top: -3rem;
+    }
+    .testimonials-box .heading {
+        font-size: 6em;
     }
 }
