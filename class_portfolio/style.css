@@ -702,11 +702,11 @@ span {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    padding-bottom: 10rem;
     overflow: scroll;
     }
     .service-info{
         margin-top: -3rem;
+        padding-bottom: 10rem;
     }
     .testimonials-box .heading {
         font-size: 6em;
