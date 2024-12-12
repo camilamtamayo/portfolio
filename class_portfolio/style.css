@@ -426,7 +426,7 @@ span {
     max-height: 200px;
     justify-content: left;
     align-items: baseline;
-    padding: 5rem 5rem;
+    padding: 5rem 5rem 5rem;
 }
 .service-info h4 {
     font-size: 3rem;
@@ -697,8 +697,8 @@ span {
         grid-template-columns: repeat(1,1fr);
     }
     .service-box {
-    display: flex; /* Enable Flexbox */
-    flex-direction: column; /* Stack content vertically */
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
