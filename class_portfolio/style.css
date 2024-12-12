@@ -702,11 +702,9 @@ span {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+    padding-bottom: 10rem;
+    overflow: scroll;
     }
-    .service-box .service-info {
-        padding-bottom: 10rem;
-    }
-
     .service-info{
         margin-top: -3rem;
     }
